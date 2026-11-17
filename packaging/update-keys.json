@@ -1,0 +1,8 @@
+{
+  "comment": "Ed25519 public keys the apps accept for update manifests (docs/UPDATES.md). maimusi-1 signs releases; maimusi-2 is the offline backup for key rotation. Never remove a key that shipped apps still rely on.",
+  "signing": "maimusi-1",
+  "keys": {
+    "maimusi-1": "WZTdbKPU/ueUI0jqY+9QEO14vPkNKdpzU4uEzcY6Og0=",
+    "maimusi-2": "8ri8XCCraq+EvG3+4tpSMyHtvXMjfHCztpoR/bYk0E8="
+  }
+}

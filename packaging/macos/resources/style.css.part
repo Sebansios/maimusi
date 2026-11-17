@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<meta name="color-scheme" content="light dark">
+<style>
+:root { color-scheme: light dark; }
+body { font: 13px/1.55 -apple-system, "Apple SD Gothic Neo", sans-serif; margin: 0 4px; color: #1d1d1f; }
+h1 { font-size: 20px; font-weight: 600; margin: 4px 0 2px; }
+.ver { color: #6e6e73; margin: 0 0 14px; }
+h2 { font-size: 13px; font-weight: 600; margin: 18px 0 6px; }
+ul, ol { padding-left: 20px; margin: 6px 0; }
+li { margin: 3px 0; }
+table { border-collapse: collapse; margin: 4px 0; }
+td { padding: 3px 14px 3px 0; vertical-align: top; }
+td:first-child { white-space: nowrap; font-weight: 500; }
+kbd { font: 12px -apple-system, sans-serif; border: 1px solid #c7c7cc; border-radius: 4px; padding: 0 5px; background: #f5f5f7; }
+code { font: 12px ui-monospace, Menlo, monospace; }
+.note { color: #6e6e73; font-size: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  .ver, .note { color: #a1a1a6; }
+  kbd { border-color: #48484a; background: #2c2c2e; }
+}
+</style>

@@ -1,0 +1,42 @@
+#!/bin/bash
+# Runs as root after the payload is installed. Restart any running copy and
+# register/enable the input source for the user logged in at the console.
+set -u
+APP_NAME="@APP_BUNDLE@"
+user="$(/usr/bin/stat -f%Su /dev/console)"
+uid="$(/usr/bin/id -u "$user" 2>/dev/null || echo 0)"
+home="$(/usr/bin/dscl . -read "/Users/$user" NFSHomeDirectory 2>/dev/null | awk '{print $2}')"
+
+app=""
+for candidate in "$2/$APP_NAME" "/Library/Input Methods/$APP_NAME"; do
+    if [ -d "$candidate" ]; then app="$candidate"; break; fi
+done
+[ -n "$app" ] || exit 0
+
+/usr/bin/pkill -u "$uid" -x HangulSpacing 2>/dev/null || true
+/usr/bin/pkill -u "$uid" -x HangulEngine 2>/dev/null || true
+/usr/bin/xattr -dr com.apple.quarantine "$app" 2>/dev/null || true
+
+# A leftover per-user copy with the same bundle ID cannot be launched by macOS
+# and would shadow this one; remove it.
+for old in "$APP_NAME" "@LEGACY_APP_BUNDLE@"; do
+    if [ -n "$home" ] && [ -d "$home/Library/Input Methods/$old" ]; then
+        /bin/rm -rf "$home/Library/Input Methods/$old"
+    fi
+done
+
+# Builds before 0.5.0 used another bundle identifier; drop their receipt.
+/usr/sbin/pkgutil --forget @LEGACY_BUNDLE_ID@.pkg >/dev/null 2>&1 || true
+
+if [ "$uid" != "0" ]; then
+    # Sandboxed apps (System Settings' keyboard pane, TextEdit, ...) keep their
+    # own input-source caches and do not notice a newly installed input
+    # method; drop them so they are rebuilt, or the source cannot be added.
+    /bin/launchctl asuser "$uid" /usr/bin/sudo -u "$user" /bin/sh -c \
+        'd="$(/usr/bin/getconf DARWIN_USER_CACHE_DIR)"; /bin/rm -f "$d"*/com.apple.IntlDataCache.le "$d"*/com.apple.IntlDataCache.le.kbdx' || true
+    /bin/launchctl asuser "$uid" /usr/bin/sudo -u "$user" "$app/Contents/MacOS/HangulSpacing" --enable || true
+    # The input menu keeps its source list in memory; restart it (launchd
+    # relaunches it immediately) so the new input method shows up.
+    /bin/launchctl asuser "$uid" /usr/bin/sudo -u "$user" /usr/bin/killall TextInputMenuAgent 2>/dev/null || true
+fi
+exit 0

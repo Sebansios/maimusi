@@ -1,0 +1,17 @@
+#!/bin/bash
+# Runs as root before the payload is installed. The installer merges the
+# payload into an existing bundle, so files an older version had and this one
+# does not (for example a model that is no longer shipped) would linger and
+# break the code signature. Remove the previous copy first.
+set -u
+APP_NAME="@APP_BUNDLE@"
+user="$(/usr/bin/stat -f%Su /dev/console)"
+uid="$(/usr/bin/id -u "$user" 2>/dev/null || echo 0)"
+/usr/bin/pkill -u "$uid" -x HangulSpacing 2>/dev/null || true
+/usr/bin/pkill -u "$uid" -x HangulEngine 2>/dev/null || true
+target="${2:-/Library/Input Methods}"
+case "$target" in */"$APP_NAME") ;; *) target="$target/$APP_NAME" ;; esac
+[ -d "$target" ] && /bin/rm -rf "$target"
+# The same input method under its name before 0.5.0.
+[ -d "/Library/Input Methods/@LEGACY_APP_BUNDLE@" ] && /bin/rm -rf "/Library/Input Methods/@LEGACY_APP_BUNDLE@"
+exit 0

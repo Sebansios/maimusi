@@ -1,0 +1,62 @@
+# Build outputs, local environments and machine-specific files
+/build/
+/core/target/
+**/__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+*.hspm
+# Local notes that may contain paths or identities
+/local/
+# Machine-local models/data and platform build products
+*.npz
+/windows/build/
+/windows/.vs/
+# Local evaluation reports can embed licensed corpus excerpts and local paths.
+/docs/spacing-evaluation/*.json
+
+# Private development material. Keep instructions on each machine, outside Git.
+.claude*/
+.codex/
+.agents/
+.cursor/
+.paseo/
+AGENTS*.md
+CLAUDE*.md
+GEMINI.md
+MEMORY.md
+.cursorrules
+.github/copilot-instructions.md
+.github/instructions/
+paseo.json
+/internal/
+/docs/spacing-evaluation/
+/docs/*RESEARCH*.md
+/docs/research-*.md
+/docs/SPACING_EVALUATION*.md
+/docs/SPACING_PAIRED_STATISTICS.md
+/docs/release/NIKL_APPROVAL_REQUEST.md
+
+# Credentials, signing material, local configuration and collected corpora.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.keystore
+/data/
+/corpora/
+/dist/
+/linux/build/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+*.log
+
+.github/agents/
+.github/prompts/

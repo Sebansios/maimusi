@@ -1,0 +1,17 @@
+# Glyph forms where the Korean education hanja standard (교육용 기초 한자,
+# 2007 revision; Unihan kKoreanEducationHanja) differs from KS X 1001.
+# Columns: education form, KS X 1001 form. Derived from Unihan 17.0 variants
+# with matching Korean readings; 豐/豊 is not linked in Unihan and was added
+# by hand. 𮕩 (U+2E569, CJK Extension F) needs a font covering that block.
+強	强
+豐	豊
+畫	畵
+祕	秘
+絕	絶
+晚	晩
+涼	凉
+姊	姉
+戲	戱
+茲	玆
+鄰	隣
+𮕩	衰

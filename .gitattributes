@@ -1,0 +1,20 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.rs text eol=lf
+*.swift text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.env text eol=lf
+*.ps1 text eol=crlf
+*.iss text eol=crlf
+*.cmd text eol=crlf
+*.npz binary
+*.hspm binary
+# Internal research/history must not enter source export archives.
+/internal export-ignore
+
+/internal/** export-ignore
+# Bundled data is hashed byte for byte (sources.json); never convert line endings.
+/engine/hangul_ime/converter_data/** -text
+/engine/hangul_ime/spacing_data/** -text

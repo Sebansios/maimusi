@@ -1,0 +1,36 @@
+// Version resource shared by the Windows binaries; @NAME@ fields are filled
+// by windows/build.ps1 from packaging/product.env and versions.json.
+#pragma code_page(65001)
+#include <winver.h>
+#include "product.h"
+
+IDI_MAIMUSI ICON "Maimusi.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION MAIMUSI_VERSION_COMMA
+ PRODUCTVERSION MAIMUSI_VERSION_COMMA
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE @FILETYPE@
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", MAIMUSI_PUBLISHER_KO
+            VALUE "FileDescription", "@DESCRIPTION@"
+            VALUE "FileVersion", MAIMUSI_VERSION_FULL
+            VALUE "InternalName", "@INTERNAL@"
+            VALUE "LegalCopyright", MAIMUSI_COPYRIGHT
+            VALUE "OriginalFilename", "@INTERNAL@"
+            VALUE "ProductName", MAIMUSI_NAME_KO
+            VALUE "ProductVersion", MAIMUSI_VERSION_FULL
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END

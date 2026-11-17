@@ -1,0 +1,5 @@
+{
+  "schema": 1,
+  "files": [".gitignore", ".gitattributes", "README.md", "CONTRIBUTING.md", "THIRD_PARTY_NOTICES.md", "versions.json", "LICENSE", "LICENSE.md"],
+  "directories": [".github", "core", "engine", "macos", "windows", "linux", "packaging", "tools", "models", "docs"]
+}

@@ -1,0 +1,4 @@
+# Developer-only update signing and test dependencies. Never bundled in the IME.
+cryptography==50.0.2
+cffi==2.1.1
+pycparser==3.12

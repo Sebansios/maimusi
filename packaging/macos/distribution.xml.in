@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>@TITLE@</title>
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <license file="license.txt" mime-type="text/plain"/>
+    <conclusion file="conclusion.html" mime-type="text/html"/>
+    <options customize="never" require-scripts="true" hostArchitectures="@HOST_ARCHS@"/>
+    <!-- macOS only launches input methods from /Library/Input Methods: a copy in
+         ~/Library/Input Methods is refused by imklaunchagent (status -50). -->
+    <domains enable_anywhere="false" enable_currentUserHome="false" enable_localSystem="true"/>
+    <volume-check>
+        <allowed-os-versions><os-version min="13.0"/></allowed-os-versions>
+    </volume-check>
+    <installation-check script="hostCheck()"/>
+    <script><![CDATA[
+function hostCheck() {
+    if (@REQUIRE_ARM64@ && system.sysctl('hw.optional.arm64') != 1) {
+        my.result.type = 'Fatal';
+        my.result.title = system.localizedString('ARM_TITLE');
+        my.result.message = system.localizedString('ARM_MESSAGE');
+        return false;
+    }
+    return true;
+}
+    ]]></script>
+    <choices-outline>
+        <line choice="default"><line choice="ime"/></line>
+    </choices-outline>
+    <choice id="default" title="@TITLE@"/>
+    <choice id="ime" visible="false"><pkg-ref id="@BUNDLE_ID@.pkg"/></choice>
+    <pkg-ref id="@BUNDLE_ID@.pkg" version="@VERSION@" onConclusion="none">component.pkg</pkg-ref>
+    <product id="@BUNDLE_ID@" version="@VERSION@"/>
+</installer-gui-script>

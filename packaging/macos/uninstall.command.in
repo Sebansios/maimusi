@@ -1,0 +1,35 @@
+#!/bin/bash
+# Remove the @NAME_EN@ input method. Settings are kept unless
+# --purge is given. Asks for an administrator password only if a system-wide
+# copy exists. Ships next to the installer and inside the app's Resources.
+set -u
+APP_NAME="@APP_BUNDLE@"
+LEGACY="@LEGACY_APP_BUNDLE@"
+for app in "$HOME/Library/Input Methods/$APP_NAME" "/Library/Input Methods/$APP_NAME" \
+           "$HOME/Library/Input Methods/$LEGACY" "/Library/Input Methods/$LEGACY"; do
+    [ -d "$app" ] || continue
+    "$app/Contents/MacOS/HangulSpacing" --unregister 2>/dev/null || true
+done
+pkill -x HangulSpacing 2>/dev/null || true
+pkill -x HangulEngine 2>/dev/null || true
+for name in "$APP_NAME" "$LEGACY"; do
+    rm -rf "$HOME/Library/Input Methods/$name"
+    if [ -d "/Library/Input Methods/$name" ]; then
+        echo "관리자 암호를 입력하면 /Library/Input Methods/$name 을 지웁니다."
+        sudo rm -rf "/Library/Input Methods/$name"
+    fi
+done
+for id in $(pkgutil --pkgs | grep -i -e '@BUNDLE_ID@' -e '@LEGACY_BUNDLE_ID@'); do
+    pkgutil --forget "$id" >/dev/null 2>&1 || sudo pkgutil --forget "$id" >/dev/null 2>&1 || true
+done
+# 받아 둔 업데이트 설치 파일(입력기 없이는 쓸 데가 없다).
+rm -rf "$HOME/Library/Caches/HangulSpacing"
+if [ "${1:-}" = "--purge" ]; then
+    for d in $(defaults domains | tr ',' '\n' | grep -i -e '@BUNDLE_ID@' -e '@LEGACY_BUNDLE_ID@'); do
+        defaults delete "$d" 2>/dev/null || true
+    done
+    # 받아 둔 후보 창 글꼴. 단어장 동기화 폴더의 파일은 사용자가 고른 곳이라 지우지 않는다.
+    rm -rf "$HOME/Library/Application Support/HangulSpacing/fonts"
+fi
+echo "제거했습니다. 입력 소스 목록에 남아 있으면 로그아웃한 뒤 다시 로그인하세요."
+echo "Removed. If the input source is still listed, log out and log back in."

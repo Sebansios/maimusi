@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "coverage": {
+    "emoji_version": "17.0",
+    "emoji_rgi_sequences_and_components": 3953,
+    "cldr_version": "48.2",
+    "cldr_locales": [
+      "ko",
+      "en"
+    ],
+    "hanja_version": "libhangul-0.2.0",
+    "hanja_headwords": 222709,
+    "hanja_pairs": 303494
+  },
+  "files": [
+    {
+      "file": "emoji-test-17.0.txt",
+      "url": "https://www.unicode.org/Public/17.0.0/emoji/emoji-test.txt",
+      "sha256": "1d8a944f88d7952f7ef7c5167fef3c67995bcae24543949710231b03a201acda",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "cldr-48.2-ko-annotations.json",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/48.2.0/cldr-json/cldr-annotations-full/annotations/ko/annotations.json",
+      "sha256": "197be7720f3cc64126fee01bad5fdb668e51de5674ce5ce5ada0bd5028f3417e",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "cldr-48.2-ko-derived.json",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/48.2.0/cldr-json/cldr-annotations-derived-full/annotationsDerived/ko/annotations.json",
+      "sha256": "69e006aaa9f0ea4568e061b0018a0f11898e19f77606e85b111b95555299f52f",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "cldr-48.2-en-annotations.json",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/48.2.0/cldr-json/cldr-annotations-full/annotations/en/annotations.json",
+      "sha256": "f22083cb86dffb63a643d5bacb5d9899f82d2fa5d388ad4f3aed72184acef505",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "cldr-48.2-en-derived.json",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/48.2.0/cldr-json/cldr-annotations-derived-full/annotationsDerived/en/annotations.json",
+      "sha256": "15c9457afa703a32dcc78d54626418a91e820fe0ddd67b7d491c4c4d9f5846ab",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "LICENSE-Unicode.txt",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/48.2.0/LICENSE",
+      "sha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "hanja-libhangul-0.2.0.txt",
+      "url": "https://raw.githubusercontent.com/libhangul/libhangul/libhangul-0.2.0/data/hanja/hanja.txt",
+      "sha256": "dd44dcc856cf542b1022d0f39c2e9b9f8805fdcc5923be80f04849ed97ce0996",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "file": "hanja-usage-unihan-17.0.tsv",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "derived": "derived from https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip by tools/build_hanja_usage.py",
+      "sha256": "a186ef989985d1c939dd9d300fc74e0dba9f5df4ff086fd361dc6e7105ae907d",
+      "license": "Unicode-3.0"
+    },
+    {
+      "file": "hanja-forms.tsv",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "derived": "education/KS X 1001 glyph pairs, kKoreanEducationHanja (Unihan 17.0) against EUC-KR",
+      "sha256": "950586acc259d97d437173e74f0201f1ef9d2e2d0b2ffeac583eb43b92d3aa93",
+      "license": "Unicode-3.0"
+    }
+  ]
+}

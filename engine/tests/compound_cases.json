@@ -1,0 +1,226 @@
+[
+  {
+    "id": "noun_phrase-001",
+    "category": "noun_phrase",
+    "source": "학교 도서관 열람 시간 안내",
+    "accepted": [
+      "학교 도서관 열람 시간 안내"
+    ]
+  },
+  {
+    "id": "noun_phrase-002",
+    "category": "noun_phrase",
+    "source": "사과 배 포도 바나나",
+    "accepted": [
+      "사과 배 포도 바나나"
+    ]
+  },
+  {
+    "id": "noun_phrase-003",
+    "category": "noun_phrase",
+    "source": "게임 개발 회사 직원",
+    "accepted": [
+      "게임 개발 회사 직원"
+    ]
+  },
+  {
+    "id": "noun_phrase-004",
+    "category": "noun_phrase",
+    "source": "인터넷 사용자 경험",
+    "accepted": [
+      "인터넷 사용자 경험"
+    ]
+  },
+  {
+    "id": "noun_phrase-005",
+    "category": "noun_phrase",
+    "source": "친구 엄마 학교 선생님",
+    "accepted": [
+      "친구 엄마 학교 선생님"
+    ]
+  },
+  {
+    "id": "noun_phrase-006",
+    "category": "noun_phrase",
+    "source": "서울 대학 병원",
+    "accepted": [
+      "서울 대학 병원"
+    ]
+  },
+  {
+    "id": "noun_phrase-007",
+    "category": "noun_phrase",
+    "source": "자료 처리 시스템을 읽어 보다",
+    "accepted": [
+      "자료 처리 시스템을 읽어 보다"
+    ]
+  },
+  {
+    "id": "noun_phrase-008",
+    "category": "noun_phrase",
+    "source": "새로운 자료 처리 방법을 읽어 보다",
+    "accepted": [
+      "새로운 자료 처리 방법을 읽어 보다"
+    ]
+  },
+  {
+    "id": "noun_phrase-009",
+    "category": "noun_phrase",
+    "source": "컴퓨터 정보 처리 시스템 구축 사업",
+    "accepted": [
+      "컴퓨터 정보 처리 시스템 구축 사업"
+    ]
+  },
+  {
+    "id": "noun_phrase-010",
+    "category": "noun_phrase",
+    "source": "방송 통신 대학교",
+    "accepted": [
+      "방송 통신 대학교"
+    ]
+  },
+  {
+    "id": "noun_phrase-011",
+    "category": "noun_phrase",
+    "source": "병원 치료비",
+    "accepted": [
+      "병원 치료비"
+    ]
+  },
+  {
+    "id": "noun_phrase-012",
+    "category": "noun_phrase",
+    "source": "회의 자료 검토 결과 보고",
+    "accepted": [
+      "회의 자료 검토 결과 보고"
+    ]
+  },
+  {
+    "id": "noun_phrase-013",
+    "category": "noun_phrase",
+    "source": "식사 시간 운동 시간 수면 시간",
+    "accepted": [
+      "식사 시간 운동 시간 수면 시간"
+    ]
+  },
+  {
+    "id": "noun_phrase-014",
+    "category": "noun_phrase",
+    "source": "지역 주민 의견 수렴 절차",
+    "accepted": [
+      "지역 주민 의견 수렴 절차"
+    ]
+  },
+  {
+    "id": "noun_phrase-015",
+    "category": "noun_phrase",
+    "source": "행정 기관 담당 직원 연락 방법",
+    "accepted": [
+      "행정 기관 담당 직원 연락 방법"
+    ]
+  },
+  {
+    "id": "noun_phrase-016",
+    "category": "noun_phrase",
+    "source": "국립 중앙 박물관 전시 안내",
+    "accepted": [
+      "국립 중앙 박물관 전시 안내"
+    ]
+  },
+  {
+    "id": "noun_phrase-017",
+    "category": "noun_phrase",
+    "source": "한국 대학교 사범 대학 입학 안내",
+    "accepted": [
+      "한국 대학교 사범 대학 입학 안내"
+    ]
+  },
+  {
+    "id": "noun_phrase-018",
+    "category": "noun_phrase",
+    "source": "건설 공사 시행 계획",
+    "accepted": [
+      "건설 공사 시행 계획"
+    ]
+  },
+  {
+    "id": "noun_phrase-019",
+    "category": "noun_phrase",
+    "source": "전자 우편 주소",
+    "accepted": [
+      "전자 우편 주소"
+    ]
+  },
+  {
+    "id": "noun_phrase-020",
+    "category": "noun_phrase",
+    "source": "공무원 연금 개혁 방안",
+    "accepted": [
+      "공무원 연금 개혁 방안"
+    ]
+  },
+  {
+    "id": "lexical_compound-001",
+    "category": "lexical_compound",
+    "source": "사과 나무 그림",
+    "accepted": [
+      "사과나무 그림"
+    ]
+  },
+  {
+    "id": "lexical_compound-002",
+    "category": "lexical_compound",
+    "source": "국어 사전을 찾아봤다",
+    "accepted": [
+      "국어사전을 찾아봤다"
+    ]
+  },
+  {
+    "id": "lexical_compound-003",
+    "category": "lexical_compound",
+    "source": "데이터 베이스 구축 사업",
+    "accepted": [
+      "데이터베이스 구축 사업"
+    ]
+  },
+  {
+    "id": "lexical_compound-004",
+    "category": "lexical_compound",
+    "source": "돼지 갈비 정식",
+    "accepted": [
+      "돼지갈비 정식"
+    ]
+  },
+  {
+    "id": "lexical_compound-005",
+    "category": "lexical_compound",
+    "source": "손목 시계 수리 비용",
+    "accepted": [
+      "손목시계 수리 비용"
+    ]
+  },
+  {
+    "id": "lexical_compound-006",
+    "category": "lexical_compound",
+    "source": "국제 기구 회의 일정",
+    "accepted": [
+      "국제기구 회의 일정"
+    ]
+  },
+  {
+    "id": "lexical_compound-007",
+    "category": "lexical_compound",
+    "source": "사과 나무 국어 사전 데이터 베이스",
+    "accepted": [
+      "사과나무 국어사전 데이터베이스"
+    ]
+  },
+  {
+    "id": "lexical_compound-008",
+    "category": "lexical_compound",
+    "source": "국어 사전 편찬 사업 담당 직원",
+    "accepted": [
+      "국어사전 편찬 사업 담당 직원"
+    ]
+  }
+]

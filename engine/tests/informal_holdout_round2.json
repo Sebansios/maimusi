@@ -1,0 +1,490 @@
+[
+  {
+    "id": "dialect_round2-01",
+    "category": "dialect_round2",
+    "source": "어데서그런소리를들었노",
+    "accepted": [
+      "어데서 그런 소리를 들었노"
+    ]
+  },
+  {
+    "id": "dialect_round2-02",
+    "category": "dialect_round2",
+    "source": "점심은묵고댕기나",
+    "accepted": [
+      "점심은 묵고 댕기나"
+    ]
+  },
+  {
+    "id": "dialect_round2-03",
+    "category": "dialect_round2",
+    "source": "왜그라노무슨일있나",
+    "accepted": [
+      "왜 그라노 무슨 일 있나"
+    ]
+  },
+  {
+    "id": "dialect_round2-04",
+    "category": "dialect_round2",
+    "source": "그사람참억수로빠르데이",
+    "accepted": [
+      "그 사람 참 억수로 빠르데이"
+    ]
+  },
+  {
+    "id": "dialect_round2-05",
+    "category": "dialect_round2",
+    "source": "언니야문좀닫아라",
+    "accepted": [
+      "언니야 문 좀 닫아라"
+    ]
+  },
+  {
+    "id": "dialect_round2-06",
+    "category": "dialect_round2",
+    "source": "저짝으로쭉가믄된다",
+    "accepted": [
+      "저짝으로 쭉 가믄 된다"
+    ]
+  },
+  {
+    "id": "dialect_round2-07",
+    "category": "dialect_round2",
+    "source": "인자고만가봐야쓰겄다",
+    "accepted": [
+      "인자 고만 가 봐야 쓰겄다",
+      "인자 고만 가봐야 쓰겄다"
+    ]
+  },
+  {
+    "id": "dialect_round2-08",
+    "category": "dialect_round2",
+    "source": "긍께내말이그말이여",
+    "accepted": [
+      "긍께 내 말이 그 말이여"
+    ]
+  },
+  {
+    "id": "dialect_round2-09",
+    "category": "dialect_round2",
+    "source": "그거시참말이당가",
+    "accepted": [
+      "그거시 참말이당가"
+    ]
+  },
+  {
+    "id": "dialect_round2-10",
+    "category": "dialect_round2",
+    "source": "아따요것좀보소",
+    "accepted": [
+      "아따 요것 좀 보소"
+    ]
+  },
+  {
+    "id": "dialect_round2-11",
+    "category": "dialect_round2",
+    "source": "그란디집에는언제갈랑가",
+    "accepted": [
+      "그란디 집에는 언제 갈랑가"
+    ]
+  },
+  {
+    "id": "dialect_round2-12",
+    "category": "dialect_round2",
+    "source": "왜그려유무슨일인디",
+    "accepted": [
+      "왜 그려유 무슨 일인디"
+    ]
+  },
+  {
+    "id": "dialect_round2-13",
+    "category": "dialect_round2",
+    "source": "지금어디가시는감",
+    "accepted": [
+      "지금 어디 가시는감"
+    ]
+  },
+  {
+    "id": "dialect_round2-14",
+    "category": "dialect_round2",
+    "source": "아직준비가안됐슈",
+    "accepted": [
+      "아직 준비가 안 됐슈"
+    ]
+  },
+  {
+    "id": "dialect_round2-15",
+    "category": "dialect_round2",
+    "source": "오늘도고생많았수다",
+    "accepted": [
+      "오늘도 고생 많았수다"
+    ]
+  },
+  {
+    "id": "dialect_round2-16",
+    "category": "dialect_round2",
+    "source": "혼저옵서예",
+    "accepted": [
+      "혼저 옵서예"
+    ]
+  },
+  {
+    "id": "dialect_round2-17",
+    "category": "dialect_round2",
+    "source": "어드레감수광",
+    "accepted": [
+      "어드레 감수광"
+    ]
+  },
+  {
+    "id": "dialect_round2-18",
+    "category": "dialect_round2",
+    "source": "이거맹글기가쉽지않네",
+    "accepted": [
+      "이거 맹글기가 쉽지 않네"
+    ]
+  },
+  {
+    "id": "dialect_round2-19",
+    "category": "dialect_round2",
+    "source": "여그말고저그로가자",
+    "accepted": [
+      "여그 말고 저그로 가자"
+    ]
+  },
+  {
+    "id": "dialect_round2-20",
+    "category": "dialect_round2",
+    "source": "겁나게추워서손이얼었어",
+    "accepted": [
+      "겁나게 추워서 손이 얼었어"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-01",
+    "category": "internet_colloquial_round2",
+    "source": "이번주말은집콕할예정",
+    "accepted": [
+      "이번 주말은 집콕할 예정",
+      "이번 주말은 집콕 할 예정"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-02",
+    "category": "internet_colloquial_round2",
+    "source": "그말듣자마자급발진했네",
+    "accepted": [
+      "그 말 듣자마자 급발진했네"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-03",
+    "category": "internet_colloquial_round2",
+    "source": "오늘사진완전인생샷이다",
+    "accepted": [
+      "오늘 사진 완전 인생샷이다"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-04",
+    "category": "internet_colloquial_round2",
+    "source": "이건누가봐도억까잖아",
+    "accepted": [
+      "이건 누가 봐도 억까잖아"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-05",
+    "category": "internet_colloquial_round2",
+    "source": "주말에정주행하다가밤샜음",
+    "accepted": [
+      "주말에 정주행하다가 밤샜음"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-06",
+    "category": "internet_colloquial_round2",
+    "source": "나만믿고따라와도됨",
+    "accepted": [
+      "나만 믿고 따라와도 됨"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-07",
+    "category": "internet_colloquial_round2",
+    "source": "다들눈팅만하지말고댓글남겨",
+    "accepted": [
+      "다들 눈팅만 하지 말고 댓글 남겨"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-08",
+    "category": "internet_colloquial_round2",
+    "source": "아무생각없이멍때리고있었네",
+    "accepted": [
+      "아무 생각 없이 멍때리고 있었네"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-09",
+    "category": "internet_colloquial_round2",
+    "source": "그사람한테입덕한계기가뭐야",
+    "accepted": [
+      "그 사람한테 입덕한 계기가 뭐야"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-10",
+    "category": "internet_colloquial_round2",
+    "source": "퇴근하자마자먹방부터봤다",
+    "accepted": [
+      "퇴근하자마자 먹방부터 봤다"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-11",
+    "category": "internet_colloquial_round2",
+    "source": "이거품절이라니실화냐",
+    "accepted": [
+      "이거 품절이라니 실화냐"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-12",
+    "category": "internet_colloquial_round2",
+    "source": "잠깐쉬었다가다시해보자",
+    "accepted": [
+      "잠깐 쉬었다가 다시 해 보자",
+      "잠깐 쉬었다가 다시 해보자"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-13",
+    "category": "internet_colloquial_round2",
+    "source": "지금와서그러면내가뭐가되니",
+    "accepted": [
+      "지금 와서 그러면 내가 뭐가 되니"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-14",
+    "category": "internet_colloquial_round2",
+    "source": "너무오래기다리게해서미안해욤",
+    "accepted": [
+      "너무 오래 기다리게 해서 미안해욤"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-15",
+    "category": "internet_colloquial_round2",
+    "source": "그이야기는다음에들려주세용",
+    "accepted": [
+      "그 이야기는 다음에 들려주세용"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-16",
+    "category": "internet_colloquial_round2",
+    "source": "먼저먹고있어나금방갈게",
+    "accepted": [
+      "먼저 먹고 있어 나 금방 갈게"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-17",
+    "category": "internet_colloquial_round2",
+    "source": "오늘따라되는일이하나도없넹",
+    "accepted": [
+      "오늘따라 되는 일이 하나도 없넹"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-18",
+    "category": "internet_colloquial_round2",
+    "source": "할말은많은데그냥참겠당",
+    "accepted": [
+      "할 말은 많은데 그냥 참겠당"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-19",
+    "category": "internet_colloquial_round2",
+    "source": "그래서결론이뭐라는거임",
+    "accepted": [
+      "그래서 결론이 뭐라는 거임"
+    ]
+  },
+  {
+    "id": "internet_colloquial_round2-20",
+    "category": "internet_colloquial_round2",
+    "source": "뭘그렇게심각하게생각하냐",
+    "accepted": [
+      "뭘 그렇게 심각하게 생각하냐"
+    ]
+  },
+  {
+    "id": "formal_round2-01",
+    "category": "formal_round2",
+    "source": "먼저사용설명서의주의사항을읽으십시오",
+    "accepted": [
+      "먼저 사용 설명서의 주의 사항을 읽으십시오",
+      "먼저 사용설명서의 주의 사항을 읽으십시오",
+      "먼저 사용 설명서의 주의사항을 읽으십시오",
+      "먼저 사용설명서의 주의사항을 읽으십시오"
+    ]
+  },
+  {
+    "id": "formal_round2-02",
+    "category": "formal_round2",
+    "source": "연구진은연료소비량을측정하였다",
+    "accepted": [
+      "연구진은 연료 소비량을 측정하였다"
+    ]
+  },
+  {
+    "id": "formal_round2-03",
+    "category": "formal_round2",
+    "source": "저자는의미와용법의차이를자세히설명했다",
+    "accepted": [
+      "저자는 의미와 용법의 차이를 자세히 설명했다"
+    ]
+  },
+  {
+    "id": "formal_round2-04",
+    "category": "formal_round2",
+    "source": "복합명사와일반명사구를구별해야한다",
+    "accepted": [
+      "복합 명사와 일반 명사구를 구별해야 한다",
+      "복합명사와 일반 명사구를 구별해야 한다"
+    ]
+  },
+  {
+    "id": "formal_round2-05",
+    "category": "formal_round2",
+    "source": "서울시내버스운행시간이변경되었다",
+    "accepted": [
+      "서울 시내 버스 운행 시간이 변경되었다"
+    ]
+  },
+  {
+    "id": "formal_round2-06",
+    "category": "formal_round2",
+    "source": "이조항은다음달부터적용됩니다",
+    "accepted": [
+      "이 조항은 다음 달부터 적용됩니다"
+    ]
+  },
+  {
+    "id": "formal_round2-07",
+    "category": "formal_round2",
+    "source": "그의주장은타당한근거를갖추고있다",
+    "accepted": [
+      "그의 주장은 타당한 근거를 갖추고 있다"
+    ]
+  },
+  {
+    "id": "formal_round2-08",
+    "category": "formal_round2",
+    "source": "참고문헌의출처를정확하게밝혀야한다",
+    "accepted": [
+      "참고 문헌의 출처를 정확하게 밝혀야 한다",
+      "참고문헌의 출처를 정확하게 밝혀야 한다"
+    ]
+  },
+  {
+    "id": "formal_round2-09",
+    "category": "formal_round2",
+    "source": "이곳은누구나자유롭게이용할수있습니다",
+    "accepted": [
+      "이곳은 누구나 자유롭게 이용할 수 있습니다"
+    ]
+  },
+  {
+    "id": "formal_round2-10",
+    "category": "formal_round2",
+    "source": "처음만난사람에게성함을여쭈었다",
+    "accepted": [
+      "처음 만난 사람에게 성함을 여쭈었다"
+    ]
+  },
+  {
+    "id": "formal_round2-11",
+    "category": "formal_round2",
+    "source": "한가지사실만으로전체를판단하지마십시오",
+    "accepted": [
+      "한 가지 사실만으로 전체를 판단하지 마십시오"
+    ]
+  },
+  {
+    "id": "formal_round2-12",
+    "category": "formal_round2",
+    "source": "그문제에는네가지해결방법이있다",
+    "accepted": [
+      "그 문제에는 네 가지 해결 방법이 있다"
+    ]
+  },
+  {
+    "id": "formal_round2-13",
+    "category": "formal_round2",
+    "source": "노씨가제출한자료를검토하고있다",
+    "accepted": [
+      "노 씨가 제출한 자료를 검토하고 있다"
+    ]
+  },
+  {
+    "id": "formal_round2-14",
+    "category": "formal_round2",
+    "source": "용선생은학생들에게질문을던졌다",
+    "accepted": [
+      "용 선생은 학생들에게 질문을 던졌다"
+    ]
+  },
+  {
+    "id": "formal_round2-15",
+    "category": "formal_round2",
+    "source": "유의원은새로운정책을제안하였다",
+    "accepted": [
+      "유 의원은 새로운 정책을 제안하였다"
+    ]
+  },
+  {
+    "id": "formal_round2-16",
+    "category": "formal_round2",
+    "source": "통계자료를확인한뒤결과를보고했다",
+    "accepted": [
+      "통계 자료를 확인한 뒤 결과를 보고했다"
+    ]
+  },
+  {
+    "id": "formal_round2-17",
+    "category": "formal_round2",
+    "source": "학술용어의정의를명확히할필요가있다",
+    "accepted": [
+      "학술 용어의 정의를 명확히 할 필요가 있다"
+    ]
+  },
+  {
+    "id": "formal_round2-18",
+    "category": "formal_round2",
+    "source": "어린학생두명이길을물었다",
+    "accepted": [
+      "어린 학생 두 명이 길을 물었다"
+    ]
+  },
+  {
+    "id": "formal_round2-19",
+    "category": "formal_round2",
+    "source": "그노인은천천히문을열고밖으로나갔다",
+    "accepted": [
+      "그 노인은 천천히 문을 열고 밖으로 나갔다"
+    ]
+  },
+  {
+    "id": "formal_round2-20",
+    "category": "formal_round2",
+    "source": "신청서를작성할때빈칸을빠짐없이채우십시오",
+    "accepted": [
+      "신청서를 작성할 때 빈칸을 빠짐없이 채우십시오"
+    ]
+  }
+]

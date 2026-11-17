@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head>@STYLE@</head><body>
+<h1>Installation complete</h1>
+<p class="ver">@NAME_EN@ @VERSION_DISPLAY@</p>
+
+<h2>Getting started</h2>
+<ol>
+<li>Choose <b>@NAME_EN@ (2-Set)</b> from the Input menu in the menu bar.</li>
+<li>If it is not listed, add it in <b>System Settings › Keyboard › Input Sources › Edit… › ＋ › Korean</b>.
+If it still does not appear, log out and log back in.</li>
+</ol>
+
+<h2>Basics</h2>
+<table>
+<tr><td><kbd>Space</kbd></td><td>Spaces what you typed.</td></tr>
+<tr><td>Keep typing</td><td>Accepts the spaced text and continues.</td></tr>
+<tr><td><kbd>Return</kbd></td><td>Accepts the current result.</td></tr>
+<tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>Moves between words.</td></tr>
+<tr><td><kbd>↑</kbd> <kbd>↓</kbd> · digits</td><td>Picks Hanja, emoji or symbol candidates for the selected word.</td></tr>
+<tr><td><kbd>Esc</kbd></td><td>Restores the text as typed.</td></tr>
+<tr><td><kbd>Shift</kbd>+<kbd>Space</kbd></td><td>Types a literal space.</td></tr>
+</table>
+<p class="note">The first Space may take a second or two while the @ENGINE_EN@ engine loads.
+More options are under <b>Settings…</b> in the Input menu.</p>
+
+<h2>Feedback</h2>
+<p>Found an error or odd spacing? Write to <b>@SUPPORT_EMAIL@</b>. Updates and help are at <b>@WEBSITE_HOST@</b>.</p>
+<p class="note">To uninstall, run this in Terminal:<br><code>"/Library/Input Methods/@APP_BUNDLE@/Contents/Resources/uninstall.command"</code></p>
+</body></html>

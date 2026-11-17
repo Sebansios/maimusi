@@ -1,0 +1,297 @@
+[
+  {
+    "category": "colloquial",
+    "source": "뭐하는거야",
+    "accepted": [
+      "뭐 하는 거야"
+    ]
+  },
+  {
+    "category": "colloquial",
+    "source": "할수있잖아",
+    "accepted": [
+      "할 수 있잖아"
+    ]
+  },
+  {
+    "category": "colloquial",
+    "source": "오늘밥먹었어",
+    "accepted": [
+      "오늘 밥 먹었어"
+    ]
+  },
+  {
+    "category": "colloquial",
+    "source": "이거진짜괜찮네",
+    "accepted": [
+      "이거 진짜 괜찮네"
+    ]
+  },
+  {
+    "category": "colloquial",
+    "source": "나지금집가는중이야",
+    "accepted": [
+      "나 지금 집 가는 중이야"
+    ]
+  },
+  {
+    "category": "colloquial",
+    "source": "내일같이영화보자",
+    "accepted": [
+      "내일 같이 영화 보자"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "주린이들은멘붕이왔어",
+    "accepted": [
+      "주린이들은 멘붕이 왔어"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "숲세권이라개꿀이네",
+    "accepted": [
+      "숲세권이라 개꿀이네"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "킹받네진짜",
+    "accepted": [
+      "킹받네 진짜"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "프로불편러가댓글을달았어",
+    "accepted": [
+      "프로불편러가 댓글을 달았어"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "골린이랑혼술했어",
+    "accepted": [
+      "골린이랑 혼술했어"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "이거존맛이네",
+    "accepted": [
+      "이거 존맛이네"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "찐친이랑만났어",
+    "accepted": [
+      "찐친이랑 만났어"
+    ]
+  },
+  {
+    "category": "slang",
+    "source": "축알못이라잘몰라",
+    "accepted": [
+      "축알못이라 잘 몰라"
+    ]
+  },
+  {
+    "category": "jamo",
+    "source": "너뭐하냐ㅋㅋ나집가는중",
+    "accepted": [
+      "너 뭐 하냐ㅋㅋ나 집 가는 중"
+    ]
+  },
+  {
+    "category": "jamo",
+    "source": "아진짜웃겨ㅋㅋㅋㅋ",
+    "accepted": [
+      "아 진짜 웃겨ㅋㅋㅋㅋ"
+    ]
+  },
+  {
+    "category": "jamo",
+    "source": "넘슬퍼ㅠㅠ오늘못감",
+    "accepted": [
+      "넘 슬퍼ㅠㅠ오늘 못 감"
+    ]
+  },
+  {
+    "category": "jamo",
+    "source": "ㅇㅋ내일봐",
+    "accepted": [
+      "ㅇㅋ내일 봐"
+    ]
+  },
+  {
+    "category": "jamo",
+    "source": "ㄹㅇ이거존맛이네",
+    "accepted": [
+      "ㄹㅇ이거 존맛이네"
+    ]
+  },
+  {
+    "category": "mixed",
+    "source": "오늘RTX5090샀어",
+    "accepted": [
+      "오늘 RTX5090 샀어"
+    ]
+  },
+  {
+    "category": "mixed",
+    "source": "유튜브에서ASMR영상봤어",
+    "accepted": [
+      "유튜브에서 ASMR 영상 봤어"
+    ]
+  },
+  {
+    "category": "mixed",
+    "source": "내일3시에PC방가자",
+    "accepted": [
+      "내일 3시에 PC방 가자"
+    ]
+  },
+  {
+    "category": "mixed",
+    "source": "오늘10km달렸어",
+    "accepted": [
+      "오늘 10km 달렸어",
+      "오늘 10 km 달렸어"
+    ]
+  },
+  {
+    "category": "mixed",
+    "source": "USB케이블을샀어",
+    "accepted": [
+      "USB 케이블을 샀어"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "아버지가방에들어가신다",
+    "accepted": [
+      "아버지가 방에 들어가신다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "나는학교에간다",
+    "accepted": [
+      "나는 학교에 간다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "이번주금요일에만나요",
+    "accepted": [
+      "이번 주 금요일에 만나요"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "우리회사신입사원교육",
+    "accepted": [
+      "우리 회사 신입 사원 교육"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "많은양을준비했다",
+    "accepted": [
+      "많은 양을 준비했다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "그란에이름을적었다",
+    "accepted": [
+      "그 란에 이름을 적었다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "내일은비가올걸",
+    "accepted": [
+      "내일은 비가 올걸"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "예쁜걸샀어",
+    "accepted": [
+      "예쁜 걸 샀어"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "자료처리방법을읽어보다",
+    "accepted": [
+      "자료 처리 방법을 읽어 보다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "공활한데바람이분다",
+    "accepted": [
+      "공활한데 바람이 분다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "그는조용히책을읽었다",
+    "accepted": [
+      "그는 조용히 책을 읽었다"
+    ]
+  },
+  {
+    "category": "general",
+    "source": "오늘날씨가참좋다",
+    "accepted": [
+      "오늘 날씨가 참 좋다"
+    ]
+  },
+  {
+    "category": "preservation",
+    "source": "주린 이들은 멘붕이왔어",
+    "accepted": [
+      "주린 이들은 멘붕이 왔어"
+    ]
+  },
+  {
+    "category": "preservation",
+    "source": "읽어  보다\t교양 교육",
+    "accepted": [
+      "읽어  보다\t교양 교육"
+    ]
+  },
+  {
+    "category": "preservation",
+    "source": "https://example.org/교양교육",
+    "accepted": [
+      "https://example.org/교양교육"
+    ]
+  },
+  {
+    "category": "preservation",
+    "source": "foo@bar.test",
+    "accepted": [
+      "foo@bar.test"
+    ]
+  },
+  {
+    "category": "preservation",
+    "source": "release_v2.0",
+    "accepted": [
+      "release_v2.0"
+    ]
+  },
+  {
+    "category": "preservation",
+    "source": "2026-09-21 3.5kg",
+    "accepted": [
+      "2026-09-21 3.5kg"
+    ]
+  }
+]

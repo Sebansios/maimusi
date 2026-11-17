@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/open-korean-text/open-korean-text",
+  "commit": "74cc4ae7d3dab232747cd5ddb723e4b73c476e4f",
+  "files": {
+    "slangs.txt": {
+      "url": "https://raw.githubusercontent.com/open-korean-text/open-korean-text/74cc4ae7d3dab232747cd5ddb723e4b73c476e4f/src/main/resources/org/openkoreantext/processor/util/noun/slangs.txt",
+      "sha256": "c5c9d0d6255361047ef6f663cbeca292bf391e5dd97586d5e39991207dd10339"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/open-korean-text/open-korean-text/74cc4ae7d3dab232747cd5ddb723e4b73c476e4f/LICENSE",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+    }
+  }
+}

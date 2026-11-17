@@ -1,0 +1,642 @@
+[
+  {
+    "id": "dialect-001",
+    "category": "dialect",
+    "source": "니뭐하노",
+    "accepted": [
+      "니 뭐 하노"
+    ]
+  },
+  {
+    "id": "dialect-002",
+    "category": "dialect",
+    "source": "지금뭐하는교",
+    "accepted": [
+      "지금 뭐 하는교"
+    ]
+  },
+  {
+    "id": "dialect-003",
+    "category": "dialect",
+    "source": "밥먹었심더",
+    "accepted": [
+      "밥 먹었심더"
+    ]
+  },
+  {
+    "id": "dialect-004",
+    "category": "dialect",
+    "source": "이거맛있당께",
+    "accepted": [
+      "이거 맛있당께"
+    ]
+  },
+  {
+    "id": "dialect-005",
+    "category": "dialect",
+    "source": "내가그랬잖여",
+    "accepted": [
+      "내가 그랬잖여"
+    ]
+  },
+  {
+    "id": "dialect-006",
+    "category": "dialect",
+    "source": "오늘뭐했슈",
+    "accepted": [
+      "오늘 뭐 했슈"
+    ]
+  },
+  {
+    "id": "dialect-007",
+    "category": "dialect",
+    "source": "니와그라노",
+    "accepted": [
+      "니 와 그라노"
+    ]
+  },
+  {
+    "id": "dialect-008",
+    "category": "dialect",
+    "source": "그게아니랑께",
+    "accepted": [
+      "그게 아니랑께"
+    ]
+  },
+  {
+    "id": "dialect-009",
+    "category": "dialect",
+    "source": "혼저옵서예",
+    "accepted": [
+      "혼저 옵서예"
+    ]
+  },
+  {
+    "id": "dialect-010",
+    "category": "dialect",
+    "source": "밥은먹었능교",
+    "accepted": [
+      "밥은 먹었능교"
+    ]
+  },
+  {
+    "id": "dialect-011",
+    "category": "dialect",
+    "source": "어디가십니꺼",
+    "accepted": [
+      "어디 가십니꺼"
+    ]
+  },
+  {
+    "id": "dialect-012",
+    "category": "dialect",
+    "source": "그거맞다아이가",
+    "accepted": [
+      "그거 맞다 아이가"
+    ]
+  },
+  {
+    "id": "dialect-013",
+    "category": "dialect",
+    "source": "와이리춥노",
+    "accepted": [
+      "와 이리 춥노"
+    ]
+  },
+  {
+    "id": "dialect-014",
+    "category": "dialect",
+    "source": "그거우째알았노",
+    "accepted": [
+      "그거 우째 알았노"
+    ]
+  },
+  {
+    "id": "dialect-015",
+    "category": "dialect",
+    "source": "이거얼마여",
+    "accepted": [
+      "이거 얼마여"
+    ]
+  },
+  {
+    "id": "dialect-016",
+    "category": "dialect",
+    "source": "어여들어와유",
+    "accepted": [
+      "어여 들어와유"
+    ]
+  },
+  {
+    "id": "dialect-017",
+    "category": "dialect",
+    "source": "얼른오랑께",
+    "accepted": [
+      "얼른 오랑께"
+    ]
+  },
+  {
+    "id": "dialect-018",
+    "category": "dialect",
+    "source": "집에가는겨",
+    "accepted": [
+      "집에 가는겨"
+    ]
+  },
+  {
+    "id": "dialect-019",
+    "category": "dialect",
+    "source": "내가말했당께",
+    "accepted": [
+      "내가 말했당께"
+    ]
+  },
+  {
+    "id": "dialect-020",
+    "category": "dialect",
+    "source": "나도모르겠구먼",
+    "accepted": [
+      "나도 모르겠구먼"
+    ]
+  },
+  {
+    "id": "internet-001",
+    "category": "internet",
+    "source": "오늘도야근각이네",
+    "accepted": [
+      "오늘도 야근각이네"
+    ]
+  },
+  {
+    "id": "internet-002",
+    "category": "internet",
+    "source": "이거개웃기네",
+    "accepted": [
+      "이거 개웃기네"
+    ]
+  },
+  {
+    "id": "internet-003",
+    "category": "internet",
+    "source": "진짜개노잼이다",
+    "accepted": [
+      "진짜 개노잼이다"
+    ]
+  },
+  {
+    "id": "internet-004",
+    "category": "internet",
+    "source": "너완전겜알못이네",
+    "accepted": [
+      "너 완전 겜알못이네"
+    ]
+  },
+  {
+    "id": "internet-005",
+    "category": "internet",
+    "source": "그거억까아니냐",
+    "accepted": [
+      "그거 억까 아니냐"
+    ]
+  },
+  {
+    "id": "internet-006",
+    "category": "internet",
+    "source": "그건좀에바인듯",
+    "accepted": [
+      "그건 좀 에바인 듯"
+    ]
+  },
+  {
+    "id": "internet-007",
+    "category": "internet",
+    "source": "여기가바로편세권이지",
+    "accepted": [
+      "여기가 바로 편세권이지"
+    ]
+  },
+  {
+    "id": "internet-008",
+    "category": "internet",
+    "source": "좀따전화할게",
+    "accepted": [
+      "좀따 전화할게"
+    ]
+  },
+  {
+    "id": "internet-009",
+    "category": "internet",
+    "source": "요즘현타가오네",
+    "accepted": [
+      "요즘 현타가 오네"
+    ]
+  },
+  {
+    "id": "internet-010",
+    "category": "internet",
+    "source": "그건네뇌피셜이잖아",
+    "accepted": [
+      "그건 네 뇌피셜이잖아"
+    ]
+  },
+  {
+    "id": "internet-011",
+    "category": "internet",
+    "source": "이영화는핵노잼이네",
+    "accepted": [
+      "이 영화는 핵노잼이네"
+    ]
+  },
+  {
+    "id": "internet-012",
+    "category": "internet",
+    "source": "그거완전갑분싸였어",
+    "accepted": [
+      "그거 완전 갑분싸였어"
+    ]
+  },
+  {
+    "id": "internet-013",
+    "category": "internet",
+    "source": "오늘부터갓생살거야",
+    "accepted": [
+      "오늘부터 갓생 살 거야"
+    ]
+  },
+  {
+    "id": "internet-014",
+    "category": "internet",
+    "source": "헬린이가운동을시작했어",
+    "accepted": [
+      "헬린이가 운동을 시작했어"
+    ]
+  },
+  {
+    "id": "internet-015",
+    "category": "internet",
+    "source": "난요린이라잘몰라",
+    "accepted": [
+      "난 요린이라 잘 몰라"
+    ]
+  },
+  {
+    "id": "internet-016",
+    "category": "internet",
+    "source": "이게임은갓겜이야",
+    "accepted": [
+      "이 게임은 갓겜이야"
+    ]
+  },
+  {
+    "id": "internet-017",
+    "category": "internet",
+    "source": "그건누가봐도답정너야",
+    "accepted": [
+      "그건 누가 봐도 답정너야"
+    ]
+  },
+  {
+    "id": "internet-018",
+    "category": "internet",
+    "source": "내부캐로접속할게",
+    "accepted": [
+      "내 부캐로 접속할게"
+    ]
+  },
+  {
+    "id": "internet-019",
+    "category": "internet",
+    "source": "이거존맛탱이네",
+    "accepted": [
+      "이거 존맛탱이네"
+    ]
+  },
+  {
+    "id": "internet-020",
+    "category": "internet",
+    "source": "내최애가컴백했어",
+    "accepted": [
+      "내 최애가 컴백했어"
+    ]
+  },
+  {
+    "id": "internet-021",
+    "category": "internet",
+    "source": "오늘도혼밥하러가",
+    "accepted": [
+      "오늘도 혼밥하러 가"
+    ]
+  },
+  {
+    "id": "internet-022",
+    "category": "internet",
+    "source": "동네가맥세권이라좋네",
+    "accepted": [
+      "동네가 맥세권이라 좋네"
+    ]
+  },
+  {
+    "id": "internet-023",
+    "category": "internet",
+    "source": "여기가진짜꿀잼이네",
+    "accepted": [
+      "여기가 진짜 꿀잼이네"
+    ]
+  },
+  {
+    "id": "internet-024",
+    "category": "internet",
+    "source": "솔까말난반대야",
+    "accepted": [
+      "솔까말 난 반대야"
+    ]
+  },
+  {
+    "id": "internet-025",
+    "category": "internet",
+    "source": "이번에완전광탈했어",
+    "accepted": [
+      "이번에 완전 광탈했어"
+    ]
+  },
+  {
+    "id": "internet-026",
+    "category": "internet",
+    "source": "그거케바케아니야",
+    "accepted": [
+      "그거 케바케 아니야"
+    ]
+  },
+  {
+    "id": "internet-027",
+    "category": "internet",
+    "source": "그사진은흑역사야",
+    "accepted": [
+      "그 사진은 흑역사야"
+    ]
+  },
+  {
+    "id": "internet-028",
+    "category": "internet",
+    "source": "그냥눈팅만하고있어",
+    "accepted": [
+      "그냥 눈팅만 하고 있어"
+    ]
+  },
+  {
+    "id": "internet-029",
+    "category": "internet",
+    "source": "순간멘붕이왔어",
+    "accepted": [
+      "순간 멘붕이 왔어"
+    ]
+  },
+  {
+    "id": "internet-030",
+    "category": "internet",
+    "source": "이건기레기가쓴글이네",
+    "accepted": [
+      "이건 기레기가 쓴 글이네"
+    ]
+  },
+  {
+    "id": "chat_endings-001",
+    "category": "chat_endings",
+    "source": "고마워용잘쓸게용",
+    "accepted": [
+      "고마워용 잘 쓸게용"
+    ]
+  },
+  {
+    "id": "chat_endings-002",
+    "category": "chat_endings",
+    "source": "오늘도수고하셨어욤",
+    "accepted": [
+      "오늘도 수고하셨어욤"
+    ]
+  },
+  {
+    "id": "chat_endings-003",
+    "category": "chat_endings",
+    "source": "어서와유반가워유",
+    "accepted": [
+      "어서 와유 반가워유"
+    ]
+  },
+  {
+    "id": "chat_endings-004",
+    "category": "chat_endings",
+    "source": "내일봐용",
+    "accepted": [
+      "내일 봐용"
+    ]
+  },
+  {
+    "id": "chat_endings-005",
+    "category": "chat_endings",
+    "source": "정말감사합니당",
+    "accepted": [
+      "정말 감사합니당"
+    ]
+  },
+  {
+    "id": "chat_endings-006",
+    "category": "chat_endings",
+    "source": "그건아닌뎅",
+    "accepted": [
+      "그건 아닌뎅"
+    ]
+  },
+  {
+    "id": "chat_endings-007",
+    "category": "chat_endings",
+    "source": "저도갈게욤",
+    "accepted": [
+      "저도 갈게욤"
+    ]
+  },
+  {
+    "id": "chat_endings-008",
+    "category": "chat_endings",
+    "source": "정말고마워유",
+    "accepted": [
+      "정말 고마워유"
+    ]
+  },
+  {
+    "id": "chat_endings-009",
+    "category": "chat_endings",
+    "source": "오늘뭐먹을까용",
+    "accepted": [
+      "오늘 뭐 먹을까용"
+    ]
+  },
+  {
+    "id": "chat_endings-010",
+    "category": "chat_endings",
+    "source": "이거진짜맛있당",
+    "accepted": [
+      "이거 진짜 맛있당"
+    ]
+  },
+  {
+    "id": "formal_contrast-001",
+    "category": "formal_contrast",
+    "source": "그는교수가되었다",
+    "accepted": [
+      "그는 교수가 되었다"
+    ]
+  },
+  {
+    "id": "formal_contrast-002",
+    "category": "formal_contrast",
+    "source": "세가지방법을비교한다",
+    "accepted": [
+      "세 가지 방법을 비교한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-003",
+    "category": "formal_contrast",
+    "source": "네가지경우를검토했다",
+    "accepted": [
+      "네 가지 경우를 검토했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-004",
+    "category": "formal_contrast",
+    "source": "공기의흐름을분석한다",
+    "accepted": [
+      "공기의 흐름을 분석한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-005",
+    "category": "formal_contrast",
+    "source": "용을그린그림을전시했다",
+    "accepted": [
+      "용을 그린 그림을 전시했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-006",
+    "category": "formal_contrast",
+    "source": "유가증권의가격이올랐다",
+    "accepted": [
+      "유가 증권의 가격이 올랐다"
+    ]
+  },
+  {
+    "id": "formal_contrast-007",
+    "category": "formal_contrast",
+    "source": "노를젓는사람을보았다",
+    "accepted": [
+      "노를 젓는 사람을 보았다"
+    ]
+  },
+  {
+    "id": "formal_contrast-008",
+    "category": "formal_contrast",
+    "source": "개의행동을관찰했다",
+    "accepted": [
+      "개의 행동을 관찰했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-009",
+    "category": "formal_contrast",
+    "source": "인터넷이용자의권리를보호한다",
+    "accepted": [
+      "인터넷 이용자의 권리를 보호한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-010",
+    "category": "formal_contrast",
+    "source": "국어사전을편찬했다",
+    "accepted": [
+      "국어 사전을 편찬했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-011",
+    "category": "formal_contrast",
+    "source": "한사람이주린배를움켜쥐었다",
+    "accepted": [
+      "한 사람이 주린 배를 움켜쥐었다"
+    ]
+  },
+  {
+    "id": "formal_contrast-012",
+    "category": "formal_contrast",
+    "source": "수출물량의증가율을계산한다",
+    "accepted": [
+      "수출 물량의 증가율을 계산한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-013",
+    "category": "formal_contrast",
+    "source": "교통체계를개선하는방안을검토한다",
+    "accepted": [
+      "교통 체계를 개선하는 방안을 검토한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-014",
+    "category": "formal_contrast",
+    "source": "현정부는새로운방안을발표했다",
+    "accepted": [
+      "현 정부는 새로운 방안을 발표했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-015",
+    "category": "formal_contrast",
+    "source": "연구결과에따르면기존모형이정확하다",
+    "accepted": [
+      "연구 결과에 따르면 기존 모형이 정확하다"
+    ]
+  },
+  {
+    "id": "formal_contrast-016",
+    "category": "formal_contrast",
+    "source": "오늘은좋은날씨입니다",
+    "accepted": [
+      "오늘은 좋은 날씨입니다"
+    ]
+  },
+  {
+    "id": "formal_contrast-017",
+    "category": "formal_contrast",
+    "source": "감사합니다잘사용하겠습니다",
+    "accepted": [
+      "감사합니다 잘 사용하겠습니다"
+    ]
+  },
+  {
+    "id": "formal_contrast-018",
+    "category": "formal_contrast",
+    "source": "이문제를해결할수있습니다",
+    "accepted": [
+      "이 문제를 해결할 수 있습니다"
+    ]
+  },
+  {
+    "id": "formal_contrast-019",
+    "category": "formal_contrast",
+    "source": "이것은반드시작동해야한다",
+    "accepted": [
+      "이것은 반드시 작동해야 한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-020",
+    "category": "formal_contrast",
+    "source": "가을하늘이공활하다",
+    "accepted": [
+      "가을 하늘이 공활하다"
+    ]
+  }
+]

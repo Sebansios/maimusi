@@ -1,0 +1,571 @@
+[
+  {
+    "id": "internet_holdout-01",
+    "category": "internet_holdout",
+    "source": "방금영상보고빵터졌음",
+    "accepted": [
+      "방금 영상 보고 빵 터졌음"
+    ]
+  },
+  {
+    "id": "internet_holdout-02",
+    "category": "internet_holdout",
+    "source": "이장면은진짜레전드다",
+    "accepted": [
+      "이 장면은 진짜 레전드다"
+    ]
+  },
+  {
+    "id": "internet_holdout-03",
+    "category": "internet_holdout",
+    "source": "댓글보다가현타왔네",
+    "accepted": [
+      "댓글 보다가 현타 왔네"
+    ]
+  },
+  {
+    "id": "internet_holdout-04",
+    "category": "internet_holdout",
+    "source": "갑분싸돼서다들조용해짐",
+    "accepted": [
+      "갑분싸 돼서 다들 조용해짐"
+    ]
+  },
+  {
+    "id": "internet_holdout-05",
+    "category": "internet_holdout",
+    "source": "이정도면뇌절아니냐",
+    "accepted": [
+      "이 정도면 뇌절 아니냐"
+    ]
+  },
+  {
+    "id": "internet_holdout-06",
+    "category": "internet_holdout",
+    "source": "내돈내산후기올려봄",
+    "accepted": [
+      "내돈내산 후기 올려 봄",
+      "내돈내산 후기 올려봄"
+    ]
+  },
+  {
+    "id": "internet_holdout-07",
+    "category": "internet_holdout",
+    "source": "오늘도갓생살려고일찍일어남",
+    "accepted": [
+      "오늘도 갓생 살려고 일찍 일어남"
+    ]
+  },
+  {
+    "id": "internet_holdout-08",
+    "category": "internet_holdout",
+    "source": "알잘딱깔센으로정리부탁",
+    "accepted": [
+      "알잘딱깔센으로 정리 부탁"
+    ]
+  },
+  {
+    "id": "internet_holdout-09",
+    "category": "internet_holdout",
+    "source": "저카페완전분좋카네",
+    "accepted": [
+      "저 카페 완전 분좋카네"
+    ]
+  },
+  {
+    "id": "internet_holdout-10",
+    "category": "internet_holdout",
+    "source": "이조합은못참지",
+    "accepted": [
+      "이 조합은 못 참지"
+    ]
+  },
+  {
+    "id": "internet_holdout-11",
+    "category": "internet_holdout",
+    "source": "댓글에스포좀하지마",
+    "accepted": [
+      "댓글에 스포 좀 하지 마"
+    ]
+  },
+  {
+    "id": "internet_holdout-12",
+    "category": "internet_holdout",
+    "source": "나지금어이없어서말이안나옴",
+    "accepted": [
+      "나 지금 어이없어서 말이 안 나옴"
+    ]
+  },
+  {
+    "id": "internet_holdout-13",
+    "category": "internet_holdout",
+    "source": "이건그냥취향차이인듯",
+    "accepted": [
+      "이건 그냥 취향 차이인 듯"
+    ]
+  },
+  {
+    "id": "internet_holdout-14",
+    "category": "internet_holdout",
+    "source": "그얘기는처음듣는데욤",
+    "accepted": [
+      "그 얘기는 처음 듣는데욤"
+    ]
+  },
+  {
+    "id": "internet_holdout-15",
+    "category": "internet_holdout",
+    "source": "답변남겨주셔서감사해용",
+    "accepted": [
+      "답변 남겨 주셔서 감사해용",
+      "답변 남겨주셔서 감사해용"
+    ]
+  },
+  {
+    "id": "internet_holdout-16",
+    "category": "internet_holdout",
+    "source": "혹시지금도주문가능한가용",
+    "accepted": [
+      "혹시 지금도 주문 가능한가용"
+    ]
+  },
+  {
+    "id": "internet_holdout-17",
+    "category": "internet_holdout",
+    "source": "사진은나중에올릴게욤",
+    "accepted": [
+      "사진은 나중에 올릴게욤"
+    ]
+  },
+  {
+    "id": "internet_holdout-18",
+    "category": "internet_holdout",
+    "source": "오늘도무사히퇴근했습니당",
+    "accepted": [
+      "오늘도 무사히 퇴근했습니당"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-01",
+    "category": "colloquial_holdout",
+    "source": "그러니까내가말했잖아",
+    "accepted": [
+      "그러니까 내가 말했잖아"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-02",
+    "category": "colloquial_holdout",
+    "source": "아니그걸왜지금말해",
+    "accepted": [
+      "아니 그걸 왜 지금 말해"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-03",
+    "category": "colloquial_holdout",
+    "source": "나도그런줄알고있었지",
+    "accepted": [
+      "나도 그런 줄 알고 있었지"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-04",
+    "category": "colloquial_holdout",
+    "source": "갈까말까아직고민중이야",
+    "accepted": [
+      "갈까 말까 아직 고민 중이야"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-05",
+    "category": "colloquial_holdout",
+    "source": "누가뭐라고하든상관없어",
+    "accepted": [
+      "누가 뭐라고 하든 상관없어"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-06",
+    "category": "colloquial_holdout",
+    "source": "그렇게까지할필요는없잖아",
+    "accepted": [
+      "그렇게까지 할 필요는 없잖아"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-07",
+    "category": "colloquial_holdout",
+    "source": "내가알아서할테니까기다려",
+    "accepted": [
+      "내가 알아서 할 테니까 기다려"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-08",
+    "category": "colloquial_holdout",
+    "source": "아무리봐도이건좀아닌듯해",
+    "accepted": [
+      "아무리 봐도 이건 좀 아닌 듯해"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-09",
+    "category": "colloquial_holdout",
+    "source": "먹고싶은게너무많네",
+    "accepted": [
+      "먹고 싶은 게 너무 많네"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-10",
+    "category": "colloquial_holdout",
+    "source": "그거어디서산건지알려줘",
+    "accepted": [
+      "그거 어디서 산 건지 알려 줘",
+      "그거 어디서 산 건지 알려줘"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-11",
+    "category": "colloquial_holdout",
+    "source": "지금출발하면늦지않겠지",
+    "accepted": [
+      "지금 출발하면 늦지 않겠지"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-12",
+    "category": "colloquial_holdout",
+    "source": "그얘기듣고한참웃었어",
+    "accepted": [
+      "그 얘기 듣고 한참 웃었어"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-13",
+    "category": "colloquial_holdout",
+    "source": "아직결정된건아무것도없어",
+    "accepted": [
+      "아직 결정된 건 아무것도 없어"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-14",
+    "category": "colloquial_holdout",
+    "source": "내일비온다던데우산챙겨",
+    "accepted": [
+      "내일 비 온다던데 우산 챙겨"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-15",
+    "category": "colloquial_holdout",
+    "source": "조금만더자고싶다",
+    "accepted": [
+      "조금만 더 자고 싶다"
+    ]
+  },
+  {
+    "id": "colloquial_holdout-16",
+    "category": "colloquial_holdout",
+    "source": "오늘따라왜이렇게피곤하냐",
+    "accepted": [
+      "오늘따라 왜 이렇게 피곤하냐"
+    ]
+  },
+  {
+    "id": "dialect_holdout-01",
+    "category": "dialect_holdout",
+    "source": "니는와이리늦었노",
+    "accepted": [
+      "니는 와 이리 늦었노"
+    ]
+  },
+  {
+    "id": "dialect_holdout-02",
+    "category": "dialect_holdout",
+    "source": "날이와이리덥노",
+    "accepted": [
+      "날이 와 이리 덥노"
+    ]
+  },
+  {
+    "id": "dialect_holdout-03",
+    "category": "dialect_holdout",
+    "source": "어제누구만났노",
+    "accepted": [
+      "어제 누구 만났노"
+    ]
+  },
+  {
+    "id": "dialect_holdout-04",
+    "category": "dialect_holdout",
+    "source": "이쪽으로어서오이소",
+    "accepted": [
+      "이쪽으로 어서 오이소"
+    ]
+  },
+  {
+    "id": "dialect_holdout-05",
+    "category": "dialect_holdout",
+    "source": "밥단디챙겨묵으래이",
+    "accepted": [
+      "밥 단디 챙겨 묵으래이"
+    ]
+  },
+  {
+    "id": "dialect_holdout-06",
+    "category": "dialect_holdout",
+    "source": "내가언제그랬다카노",
+    "accepted": [
+      "내가 언제 그랬다 카노",
+      "내가 언제 그랬다카노"
+    ]
+  },
+  {
+    "id": "dialect_holdout-07",
+    "category": "dialect_holdout",
+    "source": "고마집에가자",
+    "accepted": [
+      "고마 집에 가자"
+    ]
+  },
+  {
+    "id": "dialect_holdout-08",
+    "category": "dialect_holdout",
+    "source": "거기서뭐하는겨",
+    "accepted": [
+      "거기서 뭐 하는 겨",
+      "거기서 뭐 하는겨"
+    ]
+  },
+  {
+    "id": "dialect_holdout-09",
+    "category": "dialect_holdout",
+    "source": "그양반은벌써갔슈",
+    "accepted": [
+      "그 양반은 벌써 갔슈"
+    ]
+  },
+  {
+    "id": "dialect_holdout-10",
+    "category": "dialect_holdout",
+    "source": "이거참말로맛있구먼유",
+    "accepted": [
+      "이거 참말로 맛있구먼유"
+    ]
+  },
+  {
+    "id": "dialect_holdout-11",
+    "category": "dialect_holdout",
+    "source": "천천히와도괜찮아유",
+    "accepted": [
+      "천천히 와도 괜찮아유"
+    ]
+  },
+  {
+    "id": "dialect_holdout-12",
+    "category": "dialect_holdout",
+    "source": "오늘장에같이갈텨",
+    "accepted": [
+      "오늘 장에 같이 갈 텨",
+      "오늘 장에 같이 갈텨"
+    ]
+  },
+  {
+    "id": "dialect_holdout-13",
+    "category": "dialect_holdout",
+    "source": "시방뭣하고있당가",
+    "accepted": [
+      "시방 뭣 하고 있당가"
+    ]
+  },
+  {
+    "id": "dialect_holdout-14",
+    "category": "dialect_holdout",
+    "source": "여그가어디랑가",
+    "accepted": [
+      "여그가 어디랑가"
+    ]
+  },
+  {
+    "id": "dialect_holdout-15",
+    "category": "dialect_holdout",
+    "source": "아따무슨소리를그렇게한당가",
+    "accepted": [
+      "아따 무슨 소리를 그렇게 한당가"
+    ]
+  },
+  {
+    "id": "dialect_holdout-16",
+    "category": "dialect_holdout",
+    "source": "내가그랬다니까그러네",
+    "accepted": [
+      "내가 그랬다니까 그러네"
+    ]
+  },
+  {
+    "id": "formal_contrast-01",
+    "category": "formal_contrast",
+    "source": "주린배를따뜻한죽으로채웠다",
+    "accepted": [
+      "주린 배를 따뜻한 죽으로 채웠다"
+    ]
+  },
+  {
+    "id": "formal_contrast-02",
+    "category": "formal_contrast",
+    "source": "공활한하늘아래사람들이모였다",
+    "accepted": [
+      "공활한 하늘 아래 사람들이 모였다"
+    ]
+  },
+  {
+    "id": "formal_contrast-03",
+    "category": "formal_contrast",
+    "source": "사용목적과이용기간을명시해야한다",
+    "accepted": [
+      "사용 목적과 이용 기간을 명시해야 한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-04",
+    "category": "formal_contrast",
+    "source": "용의모습을그린그림을전시했다",
+    "accepted": [
+      "용의 모습을 그린 그림을 전시했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-05",
+    "category": "formal_contrast",
+    "source": "유씨는회의에참석하지않았다",
+    "accepted": [
+      "유 씨는 회의에 참석하지 않았다"
+    ]
+  },
+  {
+    "id": "formal_contrast-06",
+    "category": "formal_contrast",
+    "source": "신청서류는네가지로구분한다",
+    "accepted": [
+      "신청 서류는 네 가지로 구분한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-07",
+    "category": "formal_contrast",
+    "source": "한노인이공원에서책을읽고있었다",
+    "accepted": [
+      "한 노인이 공원에서 책을 읽고 있었다"
+    ]
+  },
+  {
+    "id": "formal_contrast-08",
+    "category": "formal_contrast",
+    "source": "성함과연락처를정확히기재하십시오",
+    "accepted": [
+      "성함과 연락처를 정확히 기재하십시오"
+    ]
+  },
+  {
+    "id": "formal_contrast-09",
+    "category": "formal_contrast",
+    "source": "직접확인하신내용을문서에남겨주십시오",
+    "accepted": [
+      "직접 확인하신 내용을 문서에 남겨 주십시오",
+      "직접 확인하신 내용을 문서에 남겨주십시오"
+    ]
+  },
+  {
+    "id": "formal_contrast-10",
+    "category": "formal_contrast",
+    "source": "연구결과를충분히검토한다음발표했다",
+    "accepted": [
+      "연구 결과를 충분히 검토한 다음 발표했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-11",
+    "category": "formal_contrast",
+    "source": "정부는지역경제활성화방안을검토했다",
+    "accepted": [
+      "정부는 지역 경제 활성화 방안을 검토했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-12",
+    "category": "formal_contrast",
+    "source": "한국어교육자료를새로개발하였다",
+    "accepted": [
+      "한국어 교육 자료를 새로 개발하였다"
+    ]
+  },
+  {
+    "id": "formal_contrast-13",
+    "category": "formal_contrast",
+    "source": "인공지능기술의발전속도가빨라지고있다",
+    "accepted": [
+      "인공 지능 기술의 발전 속도가 빨라지고 있다",
+      "인공지능 기술의 발전 속도가 빨라지고 있다"
+    ]
+  },
+  {
+    "id": "formal_contrast-14",
+    "category": "formal_contrast",
+    "source": "학생세명이새로운실험에참여했다",
+    "accepted": [
+      "학생 세 명이 새로운 실험에 참여했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-15",
+    "category": "formal_contrast",
+    "source": "그동안쌓인오해를풀기회가필요하다",
+    "accepted": [
+      "그동안 쌓인 오해를 풀 기회가 필요하다"
+    ]
+  },
+  {
+    "id": "formal_contrast-16",
+    "category": "formal_contrast",
+    "source": "이문제를해결할수있는방법을찾았다",
+    "accepted": [
+      "이 문제를 해결할 수 있는 방법을 찾았다"
+    ]
+  },
+  {
+    "id": "formal_contrast-17",
+    "category": "formal_contrast",
+    "source": "내일오전열시에회의를시작한다",
+    "accepted": [
+      "내일 오전 열 시에 회의를 시작한다"
+    ]
+  },
+  {
+    "id": "formal_contrast-18",
+    "category": "formal_contrast",
+    "source": "책에나오는고유명사를모두정리했다",
+    "accepted": [
+      "책에 나오는 고유 명사를 모두 정리했다",
+      "책에 나오는 고유명사를 모두 정리했다"
+    ]
+  },
+  {
+    "id": "formal_contrast-19",
+    "category": "formal_contrast",
+    "source": "담당부서의검토를거쳐최종결정을내렸다",
+    "accepted": [
+      "담당 부서의 검토를 거쳐 최종 결정을 내렸다"
+    ]
+  },
+  {
+    "id": "formal_contrast-20",
+    "category": "formal_contrast",
+    "source": "신청할때필요한서류를미리준비하십시오",
+    "accepted": [
+      "신청할 때 필요한 서류를 미리 준비하십시오"
+    ]
+  }
+]

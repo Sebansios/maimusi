@@ -1,0 +1,19 @@
+Copyright (c) 2026 Sebansios. All rights reserved.
+
+This notice applies to the original Maimusi source code and documentation
+in this repository, except where a file or component states otherwise.
+
+Publication of this repository does not grant an additional license to use,
+reproduce, modify, distribute, sublicense, or sell the original material.
+Rights arising under applicable law, GitHub's Terms of Service, or a separate
+agreement remain unaffected. In particular, GitHub's terms permit viewing
+and forking a public repository on GitHub.
+
+Official binary releases are provided under their accompanying end-user
+license agreement. The packaging template is packaging/LICENSE.txt.in.
+
+Third-party code and data retain their own copyright notices and licenses.
+This notice does not restrict rights granted by those licenses. See
+THIRD_PARTY_NOTICES.md, docs/LICENSING.md, and the notices accompanying each
+third-party component. Training corpora and restricted model files are not
+included in this source repository.

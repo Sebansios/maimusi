@@ -1,0 +1,4 @@
+"CFBundleName" = "@NAME_KO@";
+"CFBundleDisplayName" = "@NAME_KO@";
+"NSHumanReadableCopyright" = "@COPYRIGHT@";
+"@BUNDLE_ID@.dubeolsik" = "@NAME_KO@ (두벌식)";

@@ -1,0 +1,2 @@
+"ARM_TITLE" = "Requires a Mac with Apple silicon";
+"ARM_MESSAGE" = "This version can only be installed on Macs with Apple silicon (M1 or later). Intel Macs are not supported yet.";

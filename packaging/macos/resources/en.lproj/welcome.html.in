@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head>@STYLE@</head><body>
+<h1>@NAME_EN@</h1>
+<p class="ver">@TAGLINE_EN@ · Version @VERSION_DISPLAY@ · @PUBLISHER@</p>
+
+<p>A Korean input method that spaces your sentences for you. Type without spaces, press <kbd>Space</kbd>,
+and the <b>@ENGINE_EN@</b> engine spaces the whole phrase correctly. It works in any app like a regular Korean input source,
+and offers Hanja, emoji and symbol candidates while converting.</p>
+
+<h2>Before you install</h2>
+<ul>
+<li>@REQ_EN@</li>
+<li>macOS only runs input methods installed in <code>/Library/Input Methods</code>, so you will be asked for an administrator password.</li>
+<li>Apps that are already open may need to be reopened before they see the new input source.</li>
+<li>This is an early version. Please check the results when writing important documents.</li>
+</ul>
+
+<h2>Privacy</h2>
+<p>Nothing you type is logged or sent anywhere; all processing happens on this Mac. It connects only to dl.sebansios.com, for two things: a daily check for a new version (one small update-information file), and a one-time font download when a hanja character missing from the candidate-window font first appears (16–25 MB). Nothing you type is sent, and both can be turned off in Settings. A new version is offered only when its Sebansios signature checks out, and nothing is installed without asking you. Only words you register and, if you keep the option on, the few words around boundaries you correct by hand are kept on this Mac.</p>
+</body></html>
