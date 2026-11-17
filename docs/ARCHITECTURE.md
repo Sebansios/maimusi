@@ -86,7 +86,7 @@ macOS의 입력기 실행 에이전트(`imklaunchagent`)는 `/Library/Input Meth
 갱신하지 않습니다. 이 상태면 입력 소스 추가 목록에 나오지 않고, 선택해도 곧바로 이전 입력 소스로
 돌아갑니다. 설치 후 스크립트가 이 앱별 캐시를 지우므로, 설치할 때 열려 있던 앱은 다시 열면 됩니다.
 
-진단: `log stream --predicate 'process == "imklaunchagent" OR subsystem BEGINSWITH "org.hangulspacing"'`.
+진단: `log stream --predicate 'process == "imklaunchagent" OR subsystem BEGINSWITH "com.sebansios"'`.
 입력기는 수명 주기(서버 시작, 컨트롤러 생성, 헬퍼 준비·실패)만 기록하고 입력 내용은 기록하지 않습니다.
 
 ## 알려진 한계
@@ -95,4 +95,4 @@ macOS의 입력기 실행 에이전트(`imklaunchagent`)는 `/Library/Input Meth
 - 확정한 문장은 사용자가 선택 후 명시적으로 재편집한 범위만 읽습니다. IMK 선택 영역을
   제공하지 않는 앱과 여러 줄 선택은 재편집할 수 없습니다.
 - Kiwi 헬퍼는 arm64 전용입니다. Intel Mac에서는 경량 엔진만 동작합니다.
-- 0.3.0 감사에서 나온 Kiwi 오분석(`공활한데` → `공 활한데`, 복합명사 과결합 등)은 아직 고치지 않았습니다.
+- 형태소 분석과 문맥에 따라 과분리·과결합이 생길 수 있으며, 사용자 수정과 평가가 필요합니다.

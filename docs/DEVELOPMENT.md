@@ -1,7 +1,7 @@
 # 개발 안내
 
 매무시는 공용 엔진과 운영체제 어댑터를 한 저장소에서 개발합니다.
-자체 소스는 현재 [기본 저작권 유지](LICENSE)로 공개합니다.
+자체 소스는 현재 [기본 저작권 유지](../LICENSE)로 공개합니다.
 버그 보고와 기능 제안을 받을 수 있으며, 외부 코드 기여를 병합하기 전에는
 그 코드의 이용·수정·배포 및 향후 라이선스 변경에 필요한 권한을 확인합니다.
 
@@ -39,9 +39,24 @@ python tools/dev.py engine    # Python 엔진 시험
 python tools/dev.py tools     # 개발 도구 시험
 ```
 
-플랫폼별 빌드·실기 검증은 [macOS](README.md#빌드-macos),
-[Windows](windows/README.md), [Linux](linux/README.md)를 따릅니다.
+플랫폼별 빌드·실기 검증은 [macOS](../README.md#빌드-macos),
+[Windows](../windows/README.md), [Linux](../linux/README.md)를 따릅니다.
 공통 시험 통과는 플랫폼 입력기 설치·실기 입력 검증을 대신하지 않습니다.
+
+## 모델과 배포 빌드
+
+공통 시험은 제한된 학습 모델 없이 실행할 수 있습니다. 플랫폼별 배포 빌드는
+모델·글꼴 등 추가 입력이 필요할 수 있으며, 해당 이용 조건을 확인해야 합니다.
+macOS의 공개 소스 개발 번들은 [README](../README.md#빌드-macos)의 제한 모델 제외 구성을
+사용할 수 있습니다. 모델 변환 원본을 보유한 경우에만 다음 명령을 사용합니다.
+
+```sh
+python tools/convert_ngram_model.py <model.json> <morph_lex.json> -o build/models/nikl-morph.hspm
+```
+
+`MODEL`, `REFINER`, `FONTS` 옵션은 `macos/build.sh`, Windows의 대응 옵션은
+[Windows 빌드 안내](../windows/README.md#빌드)를 참고하세요.
+학습 원문·제한 모델과 배포 패키지를 소스 Git에 추가하지 않습니다.
 
 ## 공동 작업
 
@@ -73,4 +88,4 @@ OS별 동작을 공용 코어에 넣거나 UI를 다른 플랫폼에 그대로 �
 에이전트 지침, 개인 작업 메모, 기기별 설정, 서명 개인키, 인증 정보, 학습 원문과
 제한된 모델은 커밋하지 않습니다. 공개용 설명에는 개인 경로나 기기 식별자를 넣지 않습니다.
 `python tools/public_source.py audit`는 Git에 포함될 파일을 검사합니다.
-공개 소스 준비 절차와 계정 분리는 [공개 소스 관리](docs/PUBLIC_SOURCE.md)를 따릅니다.
+공개 소스의 포함·제외 범위는 [공개 소스 관리](PUBLIC_SOURCE.md)를 따릅니다.

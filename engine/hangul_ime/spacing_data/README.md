@@ -40,8 +40,9 @@ every semantic ambiguity or newly coined word.
 
 The nominal and ending scores were tested at `0`, `-2`, `-4` (the nominal
 development results were identical); the final nominal/alias score is `-3`.
-See `docs/SPACING_EVALUATION_20261002.md` for before/after measurements, separate
-development and held-out evaluations, rejected experiments and remaining gaps.
+Historical measurements are retained in private research records. Regressions for
+the published vocabulary and morphology are in `engine/tests/`; run them with
+`python tools/dev.py engine` from the repository root.
 
 ## Rechecking the external subset
 

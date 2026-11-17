@@ -1,10 +1,11 @@
-# 한글 자동 띄어쓰기 입력기
+# 매무시 (Maimusi)
 
 띄어쓰기 없이 입력하고 **스페이스**를 누르면 문장 전체가 자동으로 띄어쓰기되는 한글 입력기입니다.
-운영체제의 입력 소스로 설치되어 어느 앱에서나 동작하고, 입력한 내용은 기록·전송하지 않습니다(사용자가 등록한 단어와 직접 고친 경계의 어절만 기기에 저장).
+운영체제의 입력 소스로 설치합니다. 입력 처리는 기기 안에서 수행하며, 사용자가 등록한 단어와
+직접 고친 띄어쓰기 일부는 기기에 저장할 수 있습니다. 앱별 입력·재편집 지원 범위는 다릅니다.
+자세한 데이터 처리는 [개인정보 안내](docs/PRIVACY.md)를 참고하세요.
 
-*A Korean input method that spaces what you type: type without spaces, press Space, and the
-whole phrase is re-spaced. It runs entirely on the device and never records or sends input.*
+Hangul input method with automatic spacing.
 
 ```
 나는학교에간다        ⎵ →  나는 학교에 간다
@@ -13,22 +14,10 @@ whole phrase is re-spaced. It runs entirely on the device and never records or s
 
 ## 상태
 
-**추가 개발:** 설정에서 한자 변환 표기를 `한자`, `한글(한자)`, `한자(한글)`, `한글한자`로 선택할 수 있습니다. [사용법](docs/HANJA_PRESENTATION.md). 이 변경은 개발 소스에 있으며 기존 설치 파일에는 포함되지 않습니다.
-
-**0.4.7:** 기존 띄어쓰기 개선과 수동 편집을 포함하고 `/→·`, `[ ] ' "`의 괄호·인용부호 변환, `괄호`의 다양한 괄호 쌍, `알파/오메가` 같은 그리스 문자 이름, 수학·번호·단위 기호를 제공합니다. 자음 특수문자 목록은 설정에서 켰을 때만 제공됩니다(기본 꺼짐). [사용법과 검증](docs/SYMBOL_CONVERSION.md).
-
-**0.4.6:** 679,989행으로 학습한 로컬 경계 보정과 문장·문법 보호를 적용했습니다.
-튜닝에 쓰지 않은 54,117문장의 복원·보존 두 방식에서 5개 자료 모두 개선됐습니다.
-실제 지역어 복원 F1 62.23→92.62, 문어 GSD 87.82→90.59·Kaist 92.35→94.77입니다.
-수동 분절 합치기·쪼개기와 선택 텍스트 재편집도 제공합니다.
-최종 평가·사용 범위를 확인하세요.
-새 연구 모델은 개인용 로컬 파일이며 일반 패키지에는 포함하지 않습니다.
-
-**0.4.5:** 복합명사 붙임의 무조건 명사 결합을 제거하고, 공개 인터넷 어휘와
-구어·방언 형태소를 보강했습니다. 외부 GSD·KAIST 4,226행의 기존 출력 유지,
-별도 작성 방언·인터넷 예문 개선, 동결 헬퍼 검증 결과는
-띄어쓰기 개선 검증에 있습니다.
-설치된 구버전에는 새 pkg를 설치한 뒤 적용됩니다.
+현재 소스의 제품 버전은 **0.5.3**, 엔진 버전은 **0.1.0**입니다.
+버전 정본은 [versions.json](versions.json)이며, 개발 소스와 이미 배포된 설치 파일은 구분합니다.
+제품 안내와 설치 파일은 [공식 배포 페이지](https://sebansios.com/maimusi)를 참고하세요.
+기능 변경은 [릴리스 설명](docs/release/0.5.3.md)에 정리합니다.
 
 | 플랫폼 | 상태 |
 |---|---|
@@ -73,17 +62,13 @@ whole phrase is re-spaced. It runs entirely on the device and never records or s
 
 | 엔진 | 위치 | 메모리 | 비고 |
 |---|---|---|---|
-| Kiwi (고정확도, 기본) | 번들 안의 헬퍼 프로세스, Apple Silicon | 약 600–850MB | 0.3.0 편집기의 규칙·변환 기능 그대로 |
-| 경량 (내장) | 입력기 안의 Rust 코어 | 모델 약 9MB | 헬퍼가 없거나 준비 전·지연 시 자동 대체 |
+| Kiwi (기본) | 별도 헬퍼 프로세스 | 기존 Apple Silicon 측정 약 600–850MB | Python 엔진의 띄어쓰기 규칙·변환 기능 |
+| 경량 | 입력기 안의 Rust 코어 | 기존 모델 약 9MB | 모델을 별도로 준비한 빌드에서 헬퍼 대체 |
 
-아래는 이전 버전의 기록(공백을 지운 뒤 복원, 어절 경계 F1)입니다. NIKL 평가셋은 Kiwi의 학습 자료와 겹칠 수 있습니다. 기존에 방언으로 표시했던 500문장은 실제로 **방언의 표준어 대역**이므로 방언 정확도로 해석할 수 없습니다. 실제 방언 전사를 사용한 대규모 평가의 자료 구성은 추가 연구에 설명합니다.
-
-| 평가셋 | Kiwi | 경량 |
-|---|---:|---:|
-| NIKL 일상대화 500문장 | 96.4 | 93.8 |
-| NIKL 방언 자료의 표준어 대역 500문장 | 95.6 | 92.3 |
-| NIKL 메신저 500문장 | 72.9 | 69.5 |
-| 웹 문어 25문장 | 95.0 | 74.6 |
+학습 말뭉치와 제한된 모델 파일은 이 저장소에 포함하지 않습니다.
+Kiwi는 macOS에서 Apple Silicon용 헬퍼를 사용하며, Windows 구성은
+[플랫폼 안내](windows/README.md)를 참고하세요.
+모델 준비와 배포 범위는 [models/README.md](models/README.md)에 설명합니다.
 
 엔진 결과는 **띄어쓰기만 바뀐 경우에만** 적용됩니다. 글자가 달라지거나 사용자가 직접 넣은 공백이 사라지는 결과는 버리고 원문을 유지합니다.
 
@@ -94,6 +79,7 @@ core/      Rust 코어: 자모·두벌식 조합기, 입력 세션 상태 기계
 engine/    Python 엔진 서비스(Kiwi 띄어쓰기 규칙, 한자·이모지·단위·날짜 후보)
 macos/     Swift + InputMethodKit 입력기, 빌드·패키지 스크립트
 windows/   TSF 입력기(C++), 설정 프로그램, Inno Setup 설치 프로그램
+linux/     Linux 어댑터 설계·지원 범위 (아직 미구현)
 packaging/ 설치 패키지 리소스, 설치 후 스크립트, 제거 스크립트
 tools/     모델 변환, 라이선스 수집, 개인정보 검사
 docs/      설계·서명·라이선스·개인정보 문서
@@ -103,15 +89,21 @@ docs/      설계·서명·라이선스·개인정보 문서
 
 필요: Xcode 명령줄 도구, Rust(stable, `aarch64-apple-darwin`·`x86_64-apple-darwin`), Kiwi 헬퍼를 넣으려면 `engine/requirements.lock`을 설치한 Python 3.13.
 
+공개 소스만으로 Apple Silicon 개발 번들을 만들 때는 제한된 모델과 번들 글꼴을
+제외할 수 있습니다. Kiwi 헬퍼의 의존성은 별도로 설치합니다.
+
 ```bash
-python3 tools/convert_ngram_model.py <model.json> <morph_lex.json> -o build/models/nikl-morph.hspm
-(cd core && cargo test)
-ENGINE_PYTHON=/path/to/python ./macos/build.sh    # build/macos.noindex/HangulSpacing.app
-./macos/package.sh                               # build/dist/*.pkg, *.zip, SHA256SUMS
+python3 -m venv .venv
+.venv/bin/python -m pip install -r engine/requirements.lock
+MODEL=none FONTS=none REFINER= ARCHS=arm64 \
+  ENGINE_PYTHON="$PWD/.venv/bin/python" ./macos/build.sh
 ```
 
-경량 모델 파일은 학습 자료의 재배포 조건 때문에 저장소에 넣지 않습니다([models/README.md](models/README.md)).
-배포물은 `tools/privacy_scan.py`로 홈 경로·계정명 등이 없는지 검사한 뒤에만 만들어집니다.
+이 구성에는 매무시의 경량·경계 보정 모델과 번들 글꼴이 들어가지 않습니다.
+Intel Mac용 경량 엔진 빌드에는 별도 모델 준비가 필요합니다.
+모델이 준비된 빌드와 배포 패키지 조립은 [개발 안내](docs/DEVELOPMENT.md)와
+[모델 안내](models/README.md)를 참고하세요.
+배포물에는 `tools/privacy_scan.py`를 통한 개인정보 검사를 적용합니다.
 
 ## 문서
 
@@ -133,5 +125,5 @@ ENGINE_PYTHON=/path/to/python ./macos/build.sh    # build/macos.noindex/HangulSp
 ## 개발 참여와 소스 관리
 
 공용 코어·엔진과 플랫폼 어댑터를 한 저장소에서 관리합니다.
-개발 환경·시험·브랜치·버전 관리는 [개발 안내](CONTRIBUTING.md),
-공개 범위와 깨끗한 소스 내보내기는 [공개 소스 관리](docs/PUBLIC_SOURCE.md)를 참고하세요.
+개발 환경·시험·브랜치·버전 관리는 [개발 안내](docs/DEVELOPMENT.md),
+공개 범위와 소스 내보내기는 [공개 소스 관리](docs/PUBLIC_SOURCE.md)를 참고하세요.

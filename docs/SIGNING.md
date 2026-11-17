@@ -16,7 +16,7 @@
 
 ## macOS
 
-- **지금 빌드**는 ad-hoc 서명(`codesign -s -`)입니다. 개인 정보가 전혀 들어가지 않지만 Gatekeeper가
+- **지금 빌드**는 ad-hoc 서명(`codesign -s -`)입니다. 인증서에 개발자 명의가 표시되지 않습니다. 빌드 경로 등은 별도로 검사해야 하며, Gatekeeper가
   인증하지 않으므로, 다운로드한 pkg를 처음 열 때 사용자가 **시스템 설정 → 개인정보 보호 및 보안 →
   그래도 열기**를 눌러야 합니다.
 - **Developer ID + 공증**을 하려면 Apple Developer Program(연 99달러)에 가입해야 합니다. 개인 계정의
@@ -39,10 +39,10 @@
 
 ## 서명과 별개로 지킬 것
 
-- git 커밋 작성자: 이 저장소는 로컬 설정으로 익명 placeholder를 씁니다. 새 GitHub 계정을 만들면
-  `git config user.name "<계정명>"`, `git config user.email "<ID>+<계정명>@users.noreply.github.com"`
-  으로 바꾸고, 공개 전에 기존 커밋 작성자도 바꿉니다(`git rebase -r --root --exec 'git commit --amend --no-edit --reset-author'`).
+- git 커밋 작성자: 공개 계정 이름과 해당 계정의 GitHub noreply 이메일을 저장소 로컬 설정으로
+  지정합니다. 실제 공개 커밋의 작성자와 커미터를 확인합니다. 이미 게시한 이력을 재작성하는
+  절차를 일상적인 개인정보 검사에 포함하지 않습니다.
 - GitHub 설정에서 "Keep my email addresses private"와 "Block command line pushes that expose my email"을 켭니다.
 - 저작권 표기(`Copyright © 2026 …`)에는 실명이 필요 없습니다. 계정명이나 "… contributors"로 충분합니다.
-- 번들 ID(`org.hangulspacing.inputmethod.HangulSpacing`)는 공개 전에 확정하세요. 바꾸면 기존 사용자는
-  입력 소스를 다시 추가해야 합니다. `io.github.<계정명>.inputmethod.…` 형식이 흔합니다.
+- 현재 번들 ID 정본은 `packaging/product.env`의 `BUNDLE_ID`
+  (`com.sebansios.inputmethod.Maimusi`)입니다. 변경하면 기존 설치·설정과의 이행을 검토해야 합니다.

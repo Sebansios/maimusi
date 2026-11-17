@@ -59,7 +59,7 @@ payload:
 }
 ```
 
-- 빌드 번호는 플랫폼과 관계없이 계속 올라가므로([개발 안내](../CONTRIBUTING.md)) 빌드로만 비교한다.
+- 빌드 번호는 플랫폼과 관계없이 계속 올라가므로([개발 안내](DEVELOPMENT.md)) 빌드로만 비교한다.
 - `notes`는 알림에 앞의 4줄까지 보인다(도구는 8줄, 줄마다 200자로 제한).
 - 파일 이름은 ASCII 글자·숫자·`._-`만, macOS는 `.pkg`. 주소는 https만.
 - `minimum_os`, `architectures`, `label`, `published`, `notes`, `page`는 생략할 수 있다.
